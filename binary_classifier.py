@@ -115,7 +115,7 @@ def count_substituens(smile_string):
 
 
 
-data = pd.read_excel('C:\\Users\\User\\Desktop\\RDKIT\\Conversion_Dataset_full.xlsx')
+data = pd.read_excel('Conversion_Dataset_full.xlsx')
 
 
 data['reactants_list'] = [i.split(', ') for i in data['reactants']]
